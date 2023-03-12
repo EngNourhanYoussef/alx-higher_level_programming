@@ -8,6 +8,5 @@ if __name__ == '__main__':
     newlist = sorted(mylist)
     while i < len(newlist):
         if newlist[i][0] != '_':
-             print(newlist[i])
+            print(newlist[i])
         i += 1
-
